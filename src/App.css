@@ -1,28 +1,89 @@
-.App {
+#app {
+  max-width: 1100px;
+  margin: auto;
+  padding: 25px;
+}
+
+#header-logo {
+  float: left;
+  margin-right: 25px;
+}
+
+#header-contact {
+  float: left;
+  margin-right: 25px;
+  color: #007;
+}
+
+#header-contact div {
+  font-size: 14px;
+  margin: 5px 0px;
+}
+
+#header-nav {
+  list-style: none;
+  float: right;
+  margin: 10px 0px;
+  padding: 0px;
+}
+
+#header-nav li {
+  display: inline-block;
+  margin: 12px;
+}
+
+#header-nav a.nav-button {
+  font-size: 20px;
+  color: #007;
+  text-decoration: none;
+  padding-bottom: 10px;
+  
+}
+
+#header-nav a.nav-button:hover {
+  color: #00F;
+  border-bottom: 5px solid #00F;
+}
+
+footer {
+  margin-top: 50px;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+#content {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+#content h1 {
+  margin: 25px 0px;
 }
 
-.App-title {
-  font-size: 1.5em;
+#content h2 {
+  margin: 10px 0px;
 }
 
-.App-intro {
-  font-size: large;
+#content ul {
+  list-style: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#content li {
+  vertical-align: top;
+  display: inline-block;
+  margin: 12px;
 }
+
+#programs li {
+  min-width: 320px;
+  width: 30%;
+  text-align: left;
+}
+
+#family li {
+  min-width: 450px;
+  width: 45%;
+}
+
